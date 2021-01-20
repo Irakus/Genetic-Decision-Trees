@@ -1,0 +1,152 @@
+Breast cancer: 
+	train accuracy: 0.865934065934066
+	accuarcy error: 0.8596491228070176
+mean smoothness>=0.07052609716546936
+	worst perimeter>=186.95580333467407
+		mean texture>=27.407812237288756
+			 Class: malignant
+			mean smoothness>=0.12327535100938225
+				concave points error>=0.009619081196279524
+					mean compactness>=0.08277337425330669
+						 Class: benign
+						 Class: benign
+					 Class: malignant
+				worst concave points>=0.15389336452488708
+					mean perimeter>=105.24206170069888
+						 Class: benign
+						 Class: benign
+					 Class: malignant
+		worst perimeter>=57.51266569888808
+			worst concave points>=0.11953539345225168
+				 Class: malignant
+				 Class: benign
+			mean radius>=13.892725824322852
+				worst fractal dimension>=0.17817484770927663
+					 Class: benign
+					worst concave points>=0.18984595768878892
+						worst concave points>=0.11360266793528837
+							mean texture>=36.48987225531093
+								 Class: benign
+								worst texture>=34.40078223568568
+									 Class: benign
+									mean concave points>=0.1458725860135483
+										 Class: malignant
+										 Class: benign
+							 Class: malignant
+						 Class: malignant
+				 Class: benign
+	worst perimeter>=83.04002449343196
+		area error>=111.92492829272362
+			 Class: benign
+			mean perimeter>=138.41666086216892
+				mean concave points>=0.12059365398032111
+					 Class: benign
+					 Class: malignant
+				 Class: benign
+		mean radius>=13.839137420134627
+			 Class: benign
+			 Class: malignant
+Iris: 
+	train accuracy: 0.7583333333333333
+	accuarcy error: 0.7666666666666667
+petal length (cm)>=5.360232400975939
+	petal width (cm)>=1.134720865205745
+		petal width (cm)>=0.49419211518651784
+			 Class: virginica
+			 Class: virginica
+		petal width (cm)>=1.8774804343916387
+			 Class: versicolor
+			 Class: setosa
+	sepal width (cm)>=3.4319174382664697
+		sepal width (cm)>=4.386904352587217
+			petal length (cm)>=5.160053063330857
+				 Class: virginica
+				petal width (cm)>=0.9777375958041865
+					petal length (cm)>=6.525619790208459
+						sepal length (cm)>=4.7465135416490565
+							 Class: virginica
+							sepal length (cm)>=6.770692012757557
+								sepal length (cm)>=5.427080657681643
+									 Class: setosa
+									petal length (cm)>=5.613698927034268
+										 Class: virginica
+										petal width (cm)>=1.0158698160835469
+											 Class: versicolor
+											 Class: versicolor
+								sepal width (cm)>=4.368373355547963
+									petal width (cm)>=0.6067604291741507
+										 Class: virginica
+										petal width (cm)>=0.719757171784313
+											sepal length (cm)>=6.723019514627522
+												sepal width (cm)>=3.0276486023796103
+													 Class: versicolor
+													 Class: versicolor
+												 Class: virginica
+											 Class: virginica
+									 Class: versicolor
+						 Class: versicolor
+					petal length (cm)>=3.379469611771559
+						 Class: virginica
+						 Class: versicolor
+			 Class: setosa
+		petal length (cm)>=4.8943464902690765
+			 Class: virginica
+			sepal width (cm)>=4.319145859756578
+				petal length (cm)>=6.872993781051531
+					petal length (cm)>=5.283435357177993
+						 Class: setosa
+						petal length (cm)>=4.416495132846379
+							sepal length (cm)>=5.953668669732133
+								 Class: versicolor
+								sepal width (cm)>=3.0625695843166554
+									 Class: versicolor
+									petal width (cm)>=1.217724227706716
+										sepal width (cm)>=2.2814772964551544
+											sepal width (cm)>=3.8662637572437584
+												 Class: versicolor
+												 Class: setosa
+											 Class: virginica
+										petal width (cm)>=1.8209391640620092
+											 Class: setosa
+											sepal length (cm)>=4.903699397359171
+												 Class: setosa
+												 Class: versicolor
+							sepal length (cm)>=7.193912659010102
+								 Class: setosa
+								 Class: setosa
+					 Class: versicolor
+				sepal length (cm)>=7.179646981552075
+					 Class: virginica
+					 Class: versicolor
+Wine: 
+	train accuracy: 0.5985915492957746
+	accuarcy error: 0.6666666666666666
+nonflavanoid_phenols>=0.6546842617520736
+	ash>=2.03760890894007
+		proline>=415.5474613708013
+			 Class: class_2
+			total_phenols>=1.3738532244198953
+				 Class: class_1
+				 Class: class_0
+		proanthocyanins>=3.248630338258065
+			 Class: class_2
+			 Class: class_0
+	magnesium>=73.78732350002961
+		flavanoids>=4.0004943695118715
+			 Class: class_1
+			hue>=0.6674427284761155
+				flavanoids>=2.1855291875939664
+					 Class: class_0
+					 Class: class_1
+				color_intensity>=9.241763133785897
+					 Class: class_1
+					alcohol>=12.900521335105832
+						flavanoids>=3.5698094994110563
+							 Class: class_0
+							magnesium>=126.1094942222484
+								 Class: class_1
+								 Class: class_0
+						 Class: class_2
+		flavanoids>=2.682684805308953
+			 Class: class_1
+			 Class: class_0
